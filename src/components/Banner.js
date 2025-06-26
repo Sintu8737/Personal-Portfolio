@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img (5).png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
@@ -6,13 +6,6 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
-  const [loopNum, setLoopNum] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
-  const toRotate = ["React.js Developer", "Front End Developer"];
-  const period = 2000;
   const [showInfo, setShowInfo] = useState(false);
 
   const handleClick = () => {
