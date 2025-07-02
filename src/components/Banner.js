@@ -65,9 +65,12 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
-                  className={
+                  // className={
+                  //   isVisible ? "animate__animated animate__fadeIn" : ""
+                  // }
+                  className={`banner-content ${
                     isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
+                  }`}
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
@@ -90,7 +93,6 @@ export const Banner = () => {
                     <button onClick={handleClick}>
                       Let’s Connect <ArrowRightCircle size={25} />
                     </button>
-
                     {showInfo && (
                       <div style={{ marginTop: "10px" }}>
                         <p>Email: sintuj8737@gmail.com</p>

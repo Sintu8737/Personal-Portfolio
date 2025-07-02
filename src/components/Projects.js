@@ -62,7 +62,7 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">edorbit</Nav.Link>
+                        <Nav.Link eventKey="first">edorbit Web</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">miFIN LOS</Nav.Link>
@@ -143,8 +143,9 @@ export const Projects = () => {
                           Custom animations to enhance user experience
                           Responsive design ensuring optimal viewing across
                           devices
-                          <p>Tech Stack: React.js, Tailwind CSS, React
-                            Router DOM</p>
+                          <p>
+                            Tech Stack: React.js, Tailwind CSS, React Router DOM
+                          </p>
                         </p>
                         <a
                           href="https://acgil-homepage.vercel.app/"
